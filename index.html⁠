@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="it">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Migliori Prodotti & Offerte</title>
+    <style>
+        body { font-family: Arial, sans-serif; margin: 0; padding: 20px; background-color: #f4f4f4; color: #333; }
+        header { text-align: center; padding: 20px; background: #232f3e; color: white; }
+        .container { max-width: 800px; margin: 20px auto; background: white; padding: 20px; border-radius: 8px; }
+        .btn-amazon { display: inline-block; background: #ff9900; color: #111; padding: 10px 20px; text-decoration: none; font-weight: bold; border-radius: 5px; margin-top: 10px; }
+        footer { margin-top: 40px; text-align: center; font-size: 0.8em; color: #666; }
+    </style>
+</head>
+<body>
+
+    <header>
+        <h1>Le Migliori Offerte Selezionate</h1>
+    </header>
+
+    <div class="container">
+        <h2>Benvenuto nel sito delle migliori offerte!</h2>
+        <p>Qui troverai una selezione dei migliori prodotti in offerta su Amazon.</p>
+        
+        <!-- Esempio di Prodotto -->
+        <div style="border: 1px solid #ddd; padding: 15px; border-radius: 5px; margin-top: 15px;">
+            <h3>Nome Prodotto in Offerta</h3>
+            <p>Descrizione breve del prodotto o recensione veloce.</p>
+            <a href="https://www.amazon.it/dp/ASIN_PRODOTTO?tag=offertemigl09-21" target="_blank" rel="nofollow noopener" class="btn-amazon">Vedi su Amazon</a>
+        </div>
+    </div>
+
+    <footer>
+        <p>In qualità di Affiliato Amazon, questo sito riceve un guadagno dagli acquisti idonei.</p>
+    </footer>
+
+</body>
+</html>
